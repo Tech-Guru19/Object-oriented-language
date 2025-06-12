@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Add Players</h1>
+        <input type="text" id="named" placeholder="Name"><br>
+        <input type="text" id="num" placeholder="Jersey Number"><br>
+
+        <label for="position"></label>
+        <select id="browsers">
+            <option value="GK">GK</option>
+            <option value="CB">CB</option>
+            <option value="CB2">CB2</option>
+            <option value="LB">LB</option>
+            <option value="RB">RB</option>
+            <option value="DM">DM</option>
+            <option value="CM">CM</option>
+            <option value="AM">AM</option>
+            <option value="LW">LW</option>
+            <option value="RW">RW</option>
+            <option value="CF">CF</option>
+            </select><br>
+        <button onclick="addPlayer()">Add to lineup</button>
+        <div id="show">
+            
+        </div>
+    </div>
+
+
+    <div class="Display">
+    </div>
+
+
+    <script>
+
+        class Players {
+            constructor(pos, named, num) {
+                this.position = pos,
+                    this.name = named,
+                    this.number = num
+            }
+        }
+        const show = document.getElementById("show")
+        const addPlayer = () => {
+            const browsers = document.getElementById("browsers")
+            let player = new Players(browsers.value, named.value, num.value)
+            console.log(browsers.value);
+            
+            show.innerHTML += `
+            <div class="card ${browsers.value}">
+                <p>${named.value}</p>
+                <img src="image/player.png">
+                <p>${num.value}</p>
+            </div>
+            `
+        }
+    </script>
+</body>
+
+</html>

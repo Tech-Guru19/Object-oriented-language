@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-shadow: 2px black solid;
+    color: white;
+}
+
+#named,
+#browsers,
+#num {
+    width: 350px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Display {
+    margin-left: 40%;
+    margin-top: 40px;
+    width: 700px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url(image/pitch.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.card p {
+    font-weight: 600;
+    font-size: 12px;
+    /* border: 2px solid green; */
+    /* width: 10px; */
+    color: white;
+}
+
+.card p:nth-child(1) {
+    font-size: 12px;
+}
+
+.GK {
+    position: absolute;
+    top: 25%;
+    right: 35%;
+    display: block !important;
+}
+
+.LB {
+    position: absolute;
+    top: 14%;
+    right: 31%;
+    display: block !important;
+}
+
+
+.CB {
+    position: absolute;
+    top: 22%;
+    right: 31%;
+    display: block !important;
+    
+}
+
+.CB2 {
+    position: absolute;
+    top: 30%;
+    display: block !important;
+    right: 31%;
+}
+
+
+.RB {
+    position: absolute;
+    top: 38%;
+    right: 31%;
+    display: block !important;
+
+}
+
+.DM {
+    position: absolute;
+    top: 40%;
+    right: 31%;
+    display: block !important;
+
+}
+
+/* 
+.CM {
+    position: absolute;
+    bottom: 350px;
+    right: -120px;
+    display: block !important;
+
+}
+
+.AM {
+    position: absolute;
+    bottom: 350px;
+    display: block !important;
+    right: -155px;
+}
+
+
+
+.LW {
+    position: absolute;
+    bottom: 683px;
+    right: -230px;
+    display: block !important;
+
+} 
+
+.RW {
+    position: absolute;
+    bottom: 626px;
+    right: -240px;
+    display: block !important;
+
+}
+
+.CF {
+    position: absolute;
+    bottom: 560px;
+    right: -230px;
+    display: block !important;
+
+}  */

@@ -1,0 +1,29 @@
+        // let student1 = {
+        //     name: 'habeebah',
+        //     alias: 'palindrome',
+        //     age: 790,
+        //     gender: 'female'
+        // }
+
+        // let allStudents = []
+        // allStudents[0] = 'femi'
+        // allStudents[1] = 'john'
+        // allStudents[4] = 'mary'
+        // console.log(allStudents);
+
+        // class Student {
+        //     constructor(named, ecole, years) {
+        //         this.named = named,
+        //         this.school = ecole,
+        //         this.age = years
+        //     }
+        //     signUp = () => {
+        //         console.log(`my name is ${this.named}`);
+        //     }
+        // }
+
+        // let tolu = new Student('tolu', 'SQI', 9000)
+        // let segun = new Student('segun', 'LAUTECH', 987)
+        // console.log(tolu);
+        // console.log(segun);
+        // tolu.signUp()
