@@ -95,8 +95,8 @@ button {
 
 .LB {
     position: absolute;
-    top: 14%;
-    right: 31%;
+    top: 13%;
+    right: 30%;
     display: block !important;
 }
 
@@ -106,12 +106,12 @@ button {
     top: 22%;
     right: 31%;
     display: block !important;
-    
+
 }
 
 .CB2 {
     position: absolute;
-    top: 30%;
+    top: 32%;
     display: block !important;
     right: 31%;
 }
@@ -119,58 +119,54 @@ button {
 
 .RB {
     position: absolute;
-    top: 38%;
-    right: 31%;
+    top: 40.8%;
+    right: 30%;
     display: block !important;
 
 }
 
 .DM {
     position: absolute;
-    top: 40%;
-    right: 31%;
+    top: 39%;
+    right: 23%;
     display: block !important;
-
 }
 
-/* 
 .CM {
     position: absolute;
-    bottom: 350px;
-    right: -120px;
+    top: 15%;
+    right: 23%;
     display: block !important;
 
 }
 
 .AM {
     position: absolute;
-    bottom: 350px;
+    top: 25.9%;
+    right: 17.8%;
     display: block !important;
-    right: -155px;
 }
-
-
 
 .LW {
     position: absolute;
-    bottom: 683px;
-    right: -230px;
+    top: 15%;
+    right: 13%;
     display: block !important;
 
-} 
+}
 
 .RW {
     position: absolute;
-    bottom: 626px;
-    right: -240px;
+    top: 39%;
+    right: 13%;
     display: block !important;
 
 }
 
 .CF {
     position: absolute;
-    bottom: 560px;
-    right: -230px;
+    top: 25.9%;
+    right: 10%;
     display: block !important;
 
-}  */
+}
